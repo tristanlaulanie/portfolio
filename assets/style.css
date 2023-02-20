@@ -1,3 +1,180 @@
 /* div {
     font-size:clamp()
 }; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(6, 189, 6);
+}
+
+.header_nameskill {
+  text-align: center;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 15px;
+}
+
+.header_nameskill h2 {
+  font-size: 1.5em;
+}
+
+.header_nameskill h3 {
+  font-size: 1.2em;
+}
+
+.header_menu {
+  font-size: 1em;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 2em;
+  gap: 2em;
+}
+
+.id_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12rem;
+}
+
+.id_container h1 {
+  margin-top: 2em;
+}
+
+.id_container button {
+  margin-left: 20em;
+  padding: 1.5em 3em;
+  border-radius: 1em;
+  background-color: rgb(6, 189, 6);
+  border: none;
+  font-family: "Press Start 2P", cursive;
+  transition: 0.5s;
+}
+
+.id_container button:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.profile_description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile_description img {
+  width: 16em;
+  margin: auto 2em;
+}
+
+.profile_description p {
+  font-size: small;
+  padding: 5em;
+}
+
+.poke_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.poke_container h1 {
+  margin-bottom: 2em;
+}
+
+.cards_poke_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15em;
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
+
+.card {
+  height: auto;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  border: 3px solid black;
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: 10px 5px 5px rgb(104, 102, 102);
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(0.9);
+}
+
+.card p {
+  text-align: center;
+  font-size: large;
+}
+
+.card img {
+  width: 10em;
+}
+
+.icons img {
+  width: 1.5em;
+}
+
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.contact_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.contact_buttons button {
+  font-size: 3em;
+  width: 80vw;
+  padding: 0.2em;
+  border-radius: 15px;
+  transition: 0.8s;
+}
+
+.contact_buttons button:hover {
+  background-color: rgb(6, 189, 6);
+}
+
+footer {
+  height: 5em;
+  width: 100vw;
+  background-color: rgb(6, 189, 6);
+}

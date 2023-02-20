@@ -4,104 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&    display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="header_nameskill">
             <h2>Tristan NeoCode</h2>
-            <h3>Développeur web</h3>
+            <h3>Chasseur de pokémons</h3>
         </div>
-
         <div>
-            <ul>
-            <li>Qui suis-je ?</li>
-            <li>Projets</li>
-            <li>Contact</li>
+            <ul class="header_menu">
+                <li>Qui suis-je ?</li>
+                <li>Projets</li>
+                <li>Contact</li>
             </ul>
         </div>
     </header>
-
     <main>
-        <section>
+        <section class="id_container">
             <h1>Qui suis-je ?</h1>
-            <img src="assets\img\profilepictristan.png" alt="photo de profil Tristan NeoCode">
-            <p>
+            <div class="profile_description">
+                <img src="assets\img\profilepictristan.png" alt="photo de profil Tristan NeoCode">
+                <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fuga earum excepturi incidunt sequi quo repellat error dolore minus, vel, cum vero corrupti nobis! Accusamus modi inventore pariatur omnis sit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium officiis ipsam, vitae maiores labore repellendus illo dignissimos tempora! Animi dignissimos totam ipsam alias tempora omnis! <br> <br>
-            </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fuga odit cum veniam quasi voluptate explicabo magnam autem, vitae quis! <br> <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique autem numquam accusantium sint. Modi iure assumenda quis corporis, atque eveniet cumque nisi nam. Ullam quo necessitatibus, quaerat voluptatum esse saepe!
+                </p>
+            </div>
+            <button>Téléchargez mon CV</button>
         </section>
 
-        <section>
-
-            <h1></h1>
-
-            <section>
-                <div>
-                        <h2></h2>
-                        <img src="" alt="">
-                            <p></p>
-                        <div class="icons"></div>
-                </div>
-
-                <div>
-                    <h2></h2>
-                    <img src="" alt="">
-                    <p></p>
-                    <div class="icons"></div>
-                </div>
-
-                <div>
-                    <h2></h2>
-                    <img src="" alt="">
-                    <p></p>
-                    <div class="icons"></div>
-                </div>  
-
-                <div>
-                    <h2></h2>
-                    <img src="" alt="">
-                    <p></p>
+        <section class="poke_container">
+            <h1>Mes Pokémons</h1>
+            <section class="cards_poke_container">
+                <div class="card">
+                    <h2>Pikachu</h2>
+                    <img src="assets\img\pikachu.png" alt="Pikachu">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eius provident harum?
+                    </p>
                     <div class="icons">
+                        <img src="assets\img\badge_ame.png" alt="Badge ame">
+                        <img src="assets\img\badge_cascade.png" alt="Badge cascade">
+                        <img src="assets\img\badge_foudre.png" alt="Badge foudre">
+                        <img src="assets\img\badge_marais.png" alt="Badge marais">
+                        <img src="assets\img\badge_prisme.png" alt="Badge prisme">
+                        <img src="assets\img\badge_roche.png" alt="Badge roche">
                     </div>
                 </div>
 
-                <div>
-                    <img src="" alt="">
-                        <p>
-                            <div>
-                            </div>
-                        </p>
-                    
+                <div class="card">
+                    <h2>Raïchu</h2>
+                    <img src="assets\img\raichu.png" alt="Raïchu">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic at distinctio earum.</p>
+                    <div class="icons">
+                        <img src="assets\img\badge_volcan.png" alt="Badge volcan">
+                        <img src="assets\img\badge_terre.png" alt="Badge terre">
+                        <img src="assets\img\badge_roche.png" alt="Badge roche">
+                    </div>
                 </div>
 
-                <div>
-                    <h2></h2>
-                    <im src="" alt="">
-                    <p></p>
-                    <div class="icons"></div>
+                <div class="card">
+                    <h2>Rondoudou</h2>
+                    <img src="assets\img\rondoudou.png" alt="Rondoudou">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, tenetur. Porro numquam natus consequuntur vitae.</p>
+                    <div class="icons">
+                        <img src="assets\img\badge_prisme.png" alt="Badge prisme">
+                    </div>
+                </div>  
+
+                <div class="card">
+                    <h2>Tortank</h2>
+                    <img src="assets\img\tortank.png" alt="Tortank">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet rerum fugiat aliquid. Repudiandae, officiis quod!</p>
+                    <div class="icons">
+                        <img src="assets\img\badge_roche.png" alt="Badge roche">
+                    </div>
                 </div>
 
-                <div>
-                    <h2></h2>
-                    <img src="" alt="">
-                    <p></p>
-                    <div class="icons"></div>
+                <div class="card">
+                    <h2>Carapuce</h2>
+                    <img src="assets\img\carapuce.png" alt="Carapuce">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae! Inventore perferendis sint suscipit quasi?</p>
+                    <div class="icons">
+                        <img src="assets\img\badge_foudre.png" alt="Badge foudre">
+                        <img src="assets\img\badge_cascade.png" alt="Badge cascade">
+                    </div>
                 </div>
-                <div>
-                    <h2></h2>
-                    <img src="" alt="">
-                    <p></p>
-                    <div class="icons"></div>
+
+                <div class="card">
+                    <h2>Salamèche</h2>
+                    <img src="assets\img\salamèche.png" alt="Bulbizarre">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa molestiae, iste voluptatem voluptates velit obcaecati!</p>
+                    <div class="icons">
+                        <img src="assets\img\badge_foudre.png" alt="Badge foudre">
+                        <img src="assets\img\badge_cascade.png" alt="Badge cascade">
+                        <img src="assets\img\badge_prisme.png" alt="Badge prisme">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Bulbizarre</h2>
+                    <img src="assets\img\bulbizarre.png" alt="Bulbizarre">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque laboriosam reiciendis placeat, modi blanditiis facilis.</p>
+                    <div class="icons">
+                        <img src="assets\img\badge_foudre.png" alt="Badge foudre">
+                        <img src="assets\img\badge_cascade.png" alt="Badge cascade">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Ronflex</h2>
+                    <img src="assets\img\ronflex.png" alt="Ronflex">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo impedit pariatur, ducimus eos voluptates non.</p>
+                    <div class="icons">
+                        <img src="assets\img\badge_volcan.png" alt="Badge volcan">
+                        <img src="assets\img\badge_terre.png" alt="Badge terre">
+                        <img src="assets\img\badge_roche.png" alt="Badge roche">
+                    </div>
                 </div>
             </section>
         </section>
 
-        <section>
-            <h1></h1>
-            <div>
-                <button></button>
-                <button></button>
-                <button></button>
+        <section class="contact_container">
+            <h1>CONTACT</h1>
+            <div class="contact_buttons">
+                <button>
+                    <i class="fa-brands fa-linkedin"></i>
+                </button>
+                <button>
+                    <i class="fa-brands fa-github"></i>
+                </button>
+                <button>
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
             </div>
         </section>
     </main>   
